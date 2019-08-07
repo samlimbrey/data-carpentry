@@ -1,9 +1,11 @@
 import argparse
-import xarray as xr
-import matplotlib.pyplot as plt
-import cartopy.crs as ccrs
+
 import numpy as np
+import matplotlib.pyplot as plt
+import xarray as xr
+import cartopy.crs as ccrs
 import cmocean
+
 
 
 def convert_pr_units(darray):
